@@ -35,7 +35,7 @@ class BoycottSeeder extends Seeder
         Boycott::insert([
             'brand_id' => 9,  
             'reason' => 'Yaşanan otel yangınında sorumlulukların yerine getirilmesinde yaşanan şüpheli durumlardan boykot başlatılmıştır.',
-            'slug' => 'dbl-entertainment-vatan-hainligi-yaftasi',
+            'slug' => 'ets-tur-neden-boykotu',
             'start_date' => now(),
             'end_date' => now()->addMonths(1),  // Assuming a 6-month boycott
             'created_at' => now(),
