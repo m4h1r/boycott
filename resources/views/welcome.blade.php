@@ -111,9 +111,9 @@
 </div>
 
 
-<div class="w-3/4">
+<div class="w-full">
 
-    <div class="relative w-full min-w-[400px]">
+    <div class="relative w-full md:w-3/4 mx-auto min-w-[200px]">
 <textarea readonly class="peer h-full min-h-[100px] w-full resize-none rounded-[7px] border border-green-500 border-t-transparent bg-transparent px-3 py-2.5 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-green-500 placeholder-shown:border-t-green-500 focus:border-2 focus:border-green-500 focus:border-t-transparent focus:outline-0 disabled:resize-none disabled:border-0 disabled:bg-blue-gray-50"
           placeholder=" ">@foreach ($latestLogs as $log){{ $log->created_at->locale('tr')->translatedFormat('j F Y') }} : {{ $log->action }}
 @endforeach
@@ -126,7 +126,7 @@
 
 </div>
 
-<section class="w-3/4 m-2 p-1 bg-red-100 text-red-500 rounded mx-auto">
+<section class="w-full md:w-3/4 m-2 md:m-1 p-2 md:p1 bg-red-100 text-red-500 rounded mx-auto">
     <div class="p-2 text-xl">Önemli Bilgilendirme!</div>
     <p class="p-2">Bu platformda oluşturulan boykotlar ve destekçileri tamamen anonim olarak gösterilmektedir. Platformun amacı kışkırtıcı olmak ya taraf tutmak değildir. Son dönemde yaşanan olayların taraftan bağımsız üzücü olduğu aşikardır. Bu noktada platform, insanların en doğal hakları olan tepki göstermeyi; şiddetten ve kışkırtıcılıktan uzak bir şekilde rakamlarla ifade edebilmek için oluşturulmuştur. Mevcut yapıda henüz kullanıcılara bir boykot başlatma izni tanımlanmamıştır, ancak geliştirmeler ilerledikçe tüm tarafların kendi açısından boykotunu oluşturma yetkisi tanımlanacaktır. Firmaların telif hakları sebebi ile marka logo ve ticari ünvanları verilmemiştir.</p>
 </section>
